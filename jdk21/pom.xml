@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.learn.java.features</groupId>
+        <artifactId>learn-java-features</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.learn.java.features.jdk21</groupId>
+    <artifactId>jdk21</artifactId>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- <build> -->
+    <!--     <plugins> -->
+    <!--         <plugin> -->
+    <!--             <groupId>org.apache.maven.plugins</groupId> -->
+    <!--             <artifactId>maven-compiler-plugin</artifactId> -->
+    <!--             <configuration> -->
+    <!--                 <compilerArgs> -->
+    <!--                     <arg>&#45;&#45;add-exports java.base/jdk.internal.vm=ALL-UNNAMED</arg> -->
+    <!--                 </compilerArgs> -->
+    <!--             </configuration> -->
+    <!--         </plugin> -->
+    <!--     </plugins> -->
+    <!-- </build> -->
+</project>
